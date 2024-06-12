@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #FFD700; /* złoty */
+  --hover-color: #e0c600; /* ciemniejszy złoty */
+  --text-color: #333333; /* antracyt */
+  --background-color: #f0f0f0; /* tło */
+}
+
+#my-body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Georgia, serif';
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section:nth-child(even) {
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+.custom-button, .btn-close  {
+  background-color: var(--primary-color); 
+  border-color: var(--primary-color); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  padding: 8px;
+}
+
+.custom-button:hover, .btn-close:hover {
+  background-color: var(--hover-color);
+}
+
+.custom-button path, .btn-close .react-icons {
+  color: var(--text-color);
+  font-size: 18px;
+}

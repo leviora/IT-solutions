@@ -1,0 +1,39 @@
+.contact-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.contact-button {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--text-color);
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.contact-button:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-2px);
+  color: var(--text-color);
+}
+
+.contact-button:active {
+  transform: translateY(1px);
+}
+
+.contact-button-container .companyData {
+  color: var(--text-color) !important; /* Użycie !important */
+  font-size: 16px; /* Dodajemy rozmiar czcionki, aby zobaczyć, czy styl jest stosowany */
+}
+
+.contact-button-container .companyData a {
+  color: var(--text-color) !important; /* Użycie !important */
+  text-decoration: none; /* Upewnijmy się, że linki nie mają podkreślenia */
+}
