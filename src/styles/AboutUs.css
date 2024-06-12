@@ -1,0 +1,89 @@
+#about {
+    margin-top: 100px;
+}
+
+.separator {
+    border-bottom: 2px solid #ccc; 
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.aboutUsDescription, .aboutUsMission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 40px;
+}
+
+.aboutUsDescription .text, .aboutUsMission .text {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.8;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+.aboutUsDescription img, .aboutUsMission img {
+    flex: 1;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.aboutUsDescription img:hover, .aboutUsMission img:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .aboutUsDescription, .aboutUsMission {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .aboutUsMission {
+        flex-direction: row-reverse;
+    }
+
+    .aboutUsDescription .text, .aboutUsMission .text {
+        text-align: left;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.gallery-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--text-color);
+}

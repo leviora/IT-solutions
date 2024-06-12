@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: calc(25% - 10px); 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    transition: transform 0.2s; 
+}
+
+.gallery img:hover {
+    transform: scale(1.05); 
+} 

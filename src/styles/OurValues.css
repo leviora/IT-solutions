@@ -1,0 +1,85 @@
+#our-values {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-values {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    color: var(--text-color);
+} 
+
+.container-values h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container-values ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.container-values li {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.container-values h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container-values h3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: var(--primary-color);
+    margin-top: 10px;
+    border-radius: 2px;
+    transition: width 0.4s ease-in-out;
+}
+
+.container-values h3:hover::after {
+    width: 80px;
+}
+
+.container-values p {
+    margin-bottom: 20px; 
+}
+
+.container-values button {
+    margin-top: auto;
+}
+
+.container-values blockquote {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid var(--primary-color);
+}
+
+.container-values blockquote p {
+    margin: 0;
+    font-style: italic;
+    color: #666;
+}
