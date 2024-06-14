@@ -8,7 +8,6 @@ function WelcomeSection() {
             <div className='container'>
             <img src="/Pictures/logo.png" alt="IT Solutions Logo" className='logo' />
                 <h1>Odkryj potencjał IT Solutions</h1>
-                {/* <p>Poznaj nasze produkty i ofertę, która przyczyni się do sukcesu Twojej firmy.</p> */}
                 <div className='heading-timeline'>
                     <span className='heading-timeline-year'>2014</span>
                     <span className='heading-timeline-line'> </span>

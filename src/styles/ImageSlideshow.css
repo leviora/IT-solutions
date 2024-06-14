@@ -14,7 +14,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 5px;
-    color: #ffc107; 
+    color: var(--primary-color);
     width: calc(100% - 20px); 
     box-sizing: border-box;
     left: 50%;
@@ -33,5 +33,5 @@
     margin-bottom: 5px;
 }
 .carousel-caption p {
-    color: #f9f9f9;
+    color: var(--caption-p-color);
 }

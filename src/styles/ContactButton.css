@@ -29,11 +29,11 @@
 }
 
 .contact-button-container .companyData {
-  color: var(--text-color) !important; /* Użycie !important */
-  font-size: 16px; /* Dodajemy rozmiar czcionki, aby zobaczyć, czy styl jest stosowany */
+  color: var(--text-color) !important; 
+  font-size: 16px; 
 }
 
 .contact-button-container .companyData a {
-  color: var(--text-color) !important; /* Użycie !important */
-  text-decoration: none; /* Upewnijmy się, że linki nie mają podkreślenia */
+  color: var(--text-color) !important; 
+  text-decoration: none; 
 }

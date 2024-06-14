@@ -11,6 +11,13 @@ h3 {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.text p {
+    max-width: 700px;
+}
+.aboutUsMission animate__animated animate__fadeIn p {
+    max-width: 700px;
 }
 
 .aboutUsDescription, .aboutUsMission {

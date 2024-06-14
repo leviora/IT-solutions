@@ -1,6 +1,5 @@
 import React from 'react';
 import CountUp from 'react-countup';
-import '../styles/Counters.css';
 
 function Counters() {
     return (
