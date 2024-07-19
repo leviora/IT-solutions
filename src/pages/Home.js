@@ -30,9 +30,9 @@ function Home() {
             <section id="about"> <AboutUsPage /> </section>
             <section id="services"><ServicesPage /></section>
             <section id="portfolio"><PortfolioPage /></section>
-            <section id='budget'><BudgetInput /></section>
+            {/* <section id='budget'><BudgetInput /></section>
             <section id="contact"><ContactPage /></section>
-            <ContactButton />
+            <ContactButton /> */}
         </div>
     ); 
 }
